@@ -1,0 +1,60 @@
+@-webkit-keyframes slidein {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes slidein {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@-o-keyframes slidein {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+div {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 150px;
+    background-color: black;
+    opacity: 1;
+    -webkit-animation: slidein 1s ease 0s forwards;
+       -moz-animation: slidein 1s ease 0s forwards;
+         -o-animation: slidein 1s ease 0s forwards;
+            animation: slidein 1s ease 0s forwards;
+}
