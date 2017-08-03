@@ -1,0 +1,77 @@
+Site:
+	Style:
+		- Parralax homepage
+		- Simplistic theme
+		- Colors:
+			- Dark Grayscale
+			- Gold
+			- While Hilighing
+
+
+	Sub Pages (Tabs):
+		Home:
+			Info Needed:
+				- Community Description
+				- Donations
+					- Goals
+					- Recent Donators
+		News:
+			Community Announcements:
+				- Communit server updates
+				- events
+				- giveaways
+				- contests
+				- polls
+				- new staff members
+				- etc.
+		Forums:
+			Categories and Subcatgories:
+				News:
+					- Announcements
+					- Updates
+					- Events
+					- Giveaways
+				General:
+					- off-topic
+					- Introduce yourself
+					- Projects
+					- memes
+					- music
+					- art
+				Gaming
+					- Guilds
+					- Communities
+					- 
+		Reviews:
+			- Date Submitted
+			- A list of games (we need to update it baseon on who we see playing them or find a way to automatically keep it up to date)
+			- A review forum for users who are submitting the reviews to fill out:
+				- Rating
+				- Pros
+				- Cons
+				- Comments (maybe not)
+				- upvotes/downvotes on posts (factored into reputation)
+		Community:
+			Info Needed:
+				- Our Servers
+				- Staff
+		Profile:
+			Info Needed:
+				- Username
+				- Profile picture
+				- Profile Banner
+				- User Score
+				- Recent Posts
+				- Notifications
+					- people liked your forum post
+					- people found your review helpful
+					- your review was voted most helpful on this game
+					- this person you follow posted something
+					- there is new unread news on the News page
+				- User wall with personal posts
+				- Online Status
+				- Gamertags
+					- Steam ID
+					- Origin Name
+					- Minecraft User
+					- Discord Name
