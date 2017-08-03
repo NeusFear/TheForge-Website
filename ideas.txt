@@ -25,6 +25,17 @@ Site:
 				- new staff members
 				- etc.
 		Forums:
+			Features:
+				- tags:
+					- staff applied
+						- official
+						- poll
+						- news
+						- etc.
+					- user applied
+						- help
+						- tags for all popular games
+				- polls
 			Categories and Subcatgories:
 				News:
 					- Announcements
@@ -38,10 +49,10 @@ Site:
 					- memes
 					- music
 					- art
-				Gaming
+				Gaming:
 					- Guilds
 					- Communities
-					- 
+					- General
 		Reviews:
 			- Date Submitted
 			- A list of games (we need to update it baseon on who we see playing them or find a way to automatically keep it up to date)
