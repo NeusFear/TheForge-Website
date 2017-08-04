@@ -1,16 +1,17 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
+const config = require("./data/config.json");
 
 bot.on('ready', () => {
-  console.log('I am ready!');
+  console.log('TheForge bot is now ready.');
 });
 
 bot.on('message', message => {
-  if (message.content === '!ping') {
-    message.reply('pong');
-  }
-
-  if (message.content === '!help') {
+  if (!message.content.startsWith(config.prefix) || message.author.bot) return;
+  
+  if (message.content.startsWith(config.prefix + "ping")) {
+    message.channel.send("pong!");
+  } else if (message.content.startsWith(config.prefix + "help")) {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
@@ -21,9 +22,7 @@ bot.on('message', message => {
       .setThumbnail(bot.user.avatarURL)
 
       message.channel.send({embed});
-  }
-
-  if (message.content === '!info') {
+  } else if (message.content.startsWith(config.prefix + "info")) {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
@@ -34,18 +33,14 @@ bot.on('message', message => {
       .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
 
       message.channel.send({embed});
-  }
-
-  if (message.content === '!website') {
+  } else if (message.content.startsWith(config.prefix + "website")) {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
-      .setDescription("Our website is: **COMING SOON!!!**")
+      .setDescription("Our website is: " . config.website)
 
       message.channel.send({embed});
-  }
-
-  if (message.content === '!dick') {
+  } else if (message.content.startsWith(config.prefix + "dick")) {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffdbaa)
@@ -54,9 +49,7 @@ bot.on('message', message => {
       .addField("Brandon", "8=====================================)")
       .setFooter("Pictures taken with ❤ by SkyForge | Contact them for more.")
       message.channel.send({embed});
-  }
-
-  if (message.content === 'hi theforge') {
+  } else if (message.content.startsWith("hi theforge")) {
     message.reply('Hi!');
   }
 });
@@ -116,4 +109,4 @@ bot.on('message', message => {
   }
 });
 
-bot.login('MzQzMDU4MDU4MDg1NDAwNTc3.DGYpSA.SoiZKok88y59UeShluZOg7Rs04A');
+bot.login(config.token);
