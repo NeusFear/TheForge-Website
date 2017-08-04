@@ -9,9 +9,7 @@ bot.on('message', message => {
   if (message.content === '!ping') {
     message.reply('pong');
   }
-});
 
-bot.on('message', message => {
   if (message.content === '!help') {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
@@ -24,9 +22,7 @@ bot.on('message', message => {
 
       message.channel.send({embed});
   }
-});
 
-bot.on('message', message => {
   if (message.content === '!info') {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
@@ -39,9 +35,7 @@ bot.on('message', message => {
 
       message.channel.send({embed});
   }
-});
 
-bot.on('message', message => {
   if (message.content === '!website') {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
@@ -50,9 +44,7 @@ bot.on('message', message => {
 
       message.channel.send({embed});
   }
-});
 
-bot.on('message', message => {
   if (message.content === '!dick') {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
@@ -62,6 +54,10 @@ bot.on('message', message => {
       .addField("Brandon", "8=====================================)")
       .setFooter("Pictures taken with ❤ by SkyForge | Contact them for more.")
       message.channel.send({embed});
+  }
+
+  if (message.content === 'hi theforge') {
+    message.reply('Hi!');
   }
 });
 
