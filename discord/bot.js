@@ -11,66 +11,113 @@ bot.on('message', message => {
   }
 });
 
+bot.on('message', message => {
+  if (message.content === '!help') {
+    const embed = new Discord.RichEmbed()
+      .setAuthor("The Forge", bot.user.avatarURL)
+      .setColor(0xffc342)
+      .setDescription("This is a list of commands I can do:")
+      .addField("Commands:", "!help\n!ping\n!info\n!website\n!dick", true)
+      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nCompare Bryce to Brandon.", true)
+      .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+      .setThumbnail(bot.user.avatarURL)
+
+      message.channel.send({embed});
+  }
+});
 
 bot.on('message', message => {
-  if (message.content === '!embed') {
-    message.channel.send({embed: {
-        color: 3447003,
-        author: {
-          name: bot.user.username,
-          icon_url: bot.user.avatarURL
-        },
-        title: "Embed Title (with a like to the website.)",
-        url: "http://99.108.87.56",
-        description: "This is a test embed so Brandon can see what everything looks like when he needs to make them later.",
-        fields: [{
-            name: "Fields",
-            value: "They can have different fields with small headlines."
-          },
-          {
-            name: "Masked links",
-            value: "[Website](http://99.108.87.56) <-- Click it."
-          }
-        ],
-        timestamp: new Date(),
-        footer: {
-          icon_url: bot.user.avatarURL,
-          text: "© Example"
-        }
-      }
-    });
+  if (message.content === '!info') {
+    const embed = new Discord.RichEmbed()
+      .setAuthor("The Forge", bot.user.avatarURL)
+      .setColor(0xffc342)
+      .setDescription("About TheForge:")
+      .addField("Who are we?", "TheForge started as a group of friends who liked to play games, simple enough. We had a vision to make a community of players that like dto play the same games as us so we dont have that one guy in the squad who dosent know what they're doing and has their VOP Volume all the way down.", true)
+      .addField("What's our goal?", "We want to make it easy for gamers to find games they'll love. On top of the community on discord you can ask, you can also consult our website, where we have reviews by REAL gamers, who arent biased or partnered with a huge company.", true)
+      .addField("How do I get Involved?", "Getting to be apart of the community is really easy here on TheForge, you can do anything from saying 'Hi' on the forums or on discord, or you could join a voice channel and squad up with some other members of the community.", true)
+      .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+
+      message.channel.send({embed});
+  }
+});
+
+bot.on('message', message => {
+  if (message.content === '!website') {
+    const embed = new Discord.RichEmbed()
+      .setAuthor("The Forge", bot.user.avatarURL)
+      .setColor(0xffc342)
+      .setDescription("Our website is: **COMING SOON!!!**")
+
+      message.channel.send({embed});
   }
 });
 
 bot.on('message', message => {
   if (message.content === '!dick') {
-    message.channel.send({embed: {
-        color: 3447003,
-        author: {
-          name: "Dick Sizes",
-          icon_url: bot.user.avatarURL
-        },
-        title: "",
-        url: "",
-        description: "Size Comparison; Bryce vs. Brandon",
-        fields: [{
-            name: "Bryce",
-            value: ":-"
-          },
-          {
-            name: "Brandon",
-            value: "8====================================)"
-          }
-        ],
-        timestamp: '',
-        footer: {
-          icon_url: bot.user.avatarURL,
-          text: "Pictures taken with <3 by: SkyForge"
-        }
-      }
-    });
+    const embed = new Discord.RichEmbed()
+      .setAuthor("The Forge", bot.user.avatarURL)
+      .setColor(0xffdbaa)
+      .setDescription("Size Comparison: Bryce vs. Brandon")
+      .addField("Bryce", ":-")
+      .addField("Brandon", "8=====================================)")
+      .setFooter("Pictures taken with ❤ by SkyForge | Contact them for more.")
+      message.channel.send({embed});
   }
 });
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bot.on('message', message => {
+  if (message.content === '!embed') {
+    const embed = new Discord.RichEmbed()
+      .setTitle("This is your title, it can hold 256 characters")
+      .setURL("https://discord.js.org/#/docs/main/indev/class/RichEmbed")
+      .setAuthor("The Forge", bot.user.avatarURL)
+      .setColor(0xffc342)
+      .setDescription("This is the main body of text, it can hold 2048 characters.")
+      .setFooter("This is the footer text, it can hold 2048 characters", bot.user.avatarURL)
+      .setImage("https://i.gyazo.com/1095e28a94a827b5f42a64d0ecf8e30a.png")
+      .setThumbnail(bot.user.avatarURL)
+      .setTimestamp()
+      .addField("This is a field title, it can hold 256 characters", "This is a field value, it can hold 2048 characters.")
+      .addField("Inline Field", "They can also be inline.", true)
+      .addBlankField(true)
+      .addField("Inline Field 3", "You can have a maximum of 25 fields.", true);
+
+      message.channel.send({embed});
+  }
+});
 
 bot.login('MzQzMDU4MDU4MDg1NDAwNTc3.DGYpSA.SoiZKok88y59UeShluZOg7Rs04A');
