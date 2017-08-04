@@ -17,7 +17,7 @@ Site:
 					- Recent Donators
 		News:
 			Community Announcements:
-				- Communit server updates
+				- Community server updates
 				- events
 				- giveaways
 				- contests
