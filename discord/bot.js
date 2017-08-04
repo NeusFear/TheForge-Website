@@ -12,13 +12,14 @@ try {
     fs.mkdir("./data/");
     fs.writeFileSync("./data/config.json", fs.readFileSync("./template/config.json", "utf8"));
     console.log("Configuration file successfully created. Starting bot...");
-    bot.login(config.token);
   }
 } catch (err) {
   console.log("There was an error!");
   console.log(err);
 }
 const config = require("./data/config.json");
+
+bot.login(config.token);
 
 bot.on('ready', () => {
   console.log('TheForge bot is now ready.');
