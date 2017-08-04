@@ -1,0 +1,2 @@
+Start with: 'node bot.js'
+Stop with: '^C'
