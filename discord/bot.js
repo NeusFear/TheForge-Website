@@ -1,16 +1,21 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client();
-const config = require("./data/config.json");
-
-bot.on('ready', () => {
-  if (fs.existsSync(path)) {
+try {
+  if (fs.existsSync("./data/config.json")) {
     console.log("Configuration file already exists. Starting bot...");
   } else {
     console.log("Configuration file does not exist. Creating file...");
     fs.createReadStream('./template/config.json').pipe(fs.createWriteStream('./data/config.json'));
     console.log("Configuration file successfully created. Starting bot...");
   }
+} catch (err) {
+  console.log("There was an error!");
+  console.log(err);
+}
+const config = require("./data/config.json");
+
+bot.on('ready', () => {
   console.log('TheForge bot is now ready.');
 });
 
