@@ -1,6 +1,9 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client();
+
+process.on("unhandledRejection", err => console.error(err.stack))
+
 try {
   if (fs.existsSync("./data/config.json")) {
     console.log("Configuration file already exists. Starting bot...");
@@ -9,6 +12,7 @@ try {
     fs.mkdir("./data/");
     fs.writeFileSync("./data/config.json", fs.readFileSync("./template/config.json", "utf8"));
     console.log("Configuration file successfully created. Starting bot...");
+    bot.login(config.token);
   }
 } catch (err) {
   console.log("There was an error!");
@@ -123,4 +127,3 @@ bot.on('message', message => {
   }
 });
 
-bot.login(config.token);
