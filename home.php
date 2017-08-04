@@ -127,7 +127,7 @@
 
 
 
-    <div class="sectionhidden" id="2">
+    <div class="section" id="2" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>NEWS</div>
         <div id="content" class="content">
             News
@@ -138,7 +138,7 @@
 
 
 
-    <div class="sectionhidden" id="3">
+    <div class="section" id="3" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>FORUMS</div>
         <div id="content" class="content">
             the Forge Forums
@@ -149,7 +149,7 @@
 
 
 
-    <div class="sectionhidden" id="4">
+    <div class="section" id="4" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>REVIEWS</div>
         <div id="content" class="content">
             Review Pages
@@ -160,7 +160,7 @@
 
 
 
-    <div class="sectionhidden" id="5">
+    <div class="section" id="5" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>COMMUNITY</div>
         <div id="content" class="content">
             Server info and things
@@ -171,7 +171,7 @@
 
 
 
-    <div class="sectionhidden" id="6">
+    <div class="section" id="6" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>PROFILE</div>
         <div id="content" class="content">
             Profile Page
