@@ -8,6 +8,7 @@ try {
     console.log("Configuration file does not exist. Creating file...");
     fs.mkdir("./data/");
     fs.createReadStream('./template/config.json').pipe(fs.createWriteStream('./data/config.json'));
+    fs.writeFileSync("./data/config.json", fs.readFileSync("./template/config.json", "utf8"));
     console.log("Configuration file successfully created. Starting bot...");
   }
 } catch (err) {
