@@ -6,6 +6,7 @@ try {
     console.log("Configuration file already exists. Starting bot...");
   } else {
     console.log("Configuration file does not exist. Creating file...");
+    fs.mkdir("./data/");
     fs.createReadStream('./template/config.json').pipe(fs.createWriteStream('./data/config.json'));
     console.log("Configuration file successfully created. Starting bot...");
   }
