@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client();
-const config = require("./data/config.json");
 
 bot.on('ready', () => {
   if (fs.existsSync(path)) {
@@ -13,6 +12,8 @@ bot.on('ready', () => {
   }
   console.log('TheForge bot is now ready.');
 });
+
+const config = require("./data/config.json");
 
 bot.on('message', message => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
