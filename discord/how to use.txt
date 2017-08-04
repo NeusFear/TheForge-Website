@@ -1,2 +1,2 @@
-Start with: 'node bot.js'
-Stop with: '^C'
+Start with: start.bat
+Stop with: Ctrl+C
