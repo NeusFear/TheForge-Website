@@ -43,9 +43,6 @@
       var pagedis = pages.join(" ");
       document.getElementById("things").innerHTML = pagedis;
     }
-    function hide(hide) {
-      document.getElementById(hide).style.display = "none"
-    }
     function left() {
       i = 1
       while (document.getElementById(i)) {
@@ -53,10 +50,8 @@
           if (i === 1) { break; }
           i1 = i
           i1--;
-          document.getElementById(i).style.width = "0px"
-          setTimeout(hide(i), 600);
-          document.getElementById(i1).style.display = "block"
-          document.getElementById(i1).style.width = "100%"
+          document.getElementById(i).style.display = "none";
+          document.getElementById(i1).style.display = "block";
           pagenav();
         }
         i++;
@@ -69,10 +64,8 @@
           i1 = i
           i1++;
           if (!document.getElementById(i1)) { break; }
-          document.getElementById(i).style.width = "0px"
-          setTimeout(hide(i), 600);
-          document.getElementById(i1).style.display = "block"
-          document.getElementById(i1).style.width = "100%"
+          document.getElementById(i).style.display = "none";
+          document.getElementById(i1).style.display = "block";
 
           pagenav();
         }
@@ -102,18 +95,32 @@
     window.onload = function(){
        pagenav();
        assignimages();
+       document.getElementsByTagName('body')[0].onkeyup = function(e) {
+         var ev = e || window.event;
+         if(ev.keyCode == 37) {
+           left();
+           return false;
+         }
+         if(ev.keyCode == 39) {
+           right();
+           return false;
+         }
+       }
     };
 
   </script>
   <body>
-    <div class="section" id="1" style="display:block;">
+    <div class="section" id="1" style="display: block;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>HOME</div>
 
-      <div class="parallax" id="parallax-1">
+      <div class="parallax" id="parallax-1" style="min-height:600px;">
          <button type="button" class="button" onclick="changeimage('temp.png', 'parallax-1')">Change Image</button>
+         <br />This is just a test button.
       </div>
 
       <div class="parallax" id="parallax-2"></div>
+      <div class="info">Some text<br /><p>Some subtext</p></div>
+      <div class="parallax" id="parallax-3"></div>
 
     </div>
 
@@ -121,7 +128,7 @@
 
 
 
-    <div class="section" id="2" style="display:none;">
+    <div class="sectionhidden" id="2">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>NEWS</div>
         <div id="content" class="content">
             News
@@ -132,7 +139,7 @@
 
 
 
-    <div class="section" id="3" style="display:none;">
+    <div class="sectionhidden" id="3">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>FORUMS</div>
         <div id="content" class="content">
             the Forge Forums
@@ -143,7 +150,7 @@
 
 
 
-    <div class="section" id="4" style="display:none;">
+    <div class="sectionhidden" id="4">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>REVIEWS</div>
         <div id="content" class="content">
             Review Pages
@@ -154,7 +161,7 @@
 
 
 
-    <div class="section" id="5" style="display:none;">
+    <div class="sectionhidden" id="5">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>COMMUNITY</div>
         <div id="content" class="content">
             Server info and things
@@ -165,7 +172,7 @@
 
 
 
-    <div class="section" id="6" style="display:none;">
+    <div class="sectionhidden" id="6">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>PROFILE</div>
         <div id="content" class="content">
             Profile Page

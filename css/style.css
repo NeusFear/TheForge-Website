@@ -23,25 +23,41 @@ main{
     display: flex;
 }
 .section{
-  width: 100%;
-  opacity: 1;
+  width: auto;
+  display: block;
 }
 
 
 
 
 .content {
-  width: 100%;
-  position: relative;
+  width: auto;
   font-family: source sans pro;
   background-color: #212121;
   color: white;
   padding: 0px 10px 0px 10px;
-  transition: all 0.5s linear;
+  overflow: hidden;
 }
 .background {
   position: fixed;
   width: 100%;
+}
+p{
+  font-size: 26;
+  color: white;
+  font-family: source sans pro;
+}
+.info {
+  min-height: 200px;
+  text-align: center;
+  padding-top: 100px;
+  font-family: Big John;
+  font-size: 50px;
+  background-color: black;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: white;
+  color: #ffc342;
 }
 
 
@@ -120,7 +136,6 @@ button:hover{
   color: white;
   font-family: Big John;
 
-
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
@@ -128,8 +143,6 @@ button:hover{
   background-repeat: no-repeat;
   background-size: cover;
 
-}
-.parallax {
   background-image: url("../images/temp.png");
   min-height: 300px;
 }
