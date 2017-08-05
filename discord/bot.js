@@ -27,7 +27,7 @@ bot.on('ready', () => {
 
 bot.on('message', message => {
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
-  
+
   if (message.content.startsWith(config.prefix + "ping")) {
     message.channel.send("pong!");
   } else if (message.content.startsWith(config.prefix + "help")) {
@@ -35,8 +35,8 @@ bot.on('message', message => {
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
       .setDescription("This is a list of commands I can do:")
-      .addField("Commands:", "!help\n!ping\n!info\n!website\n!dick", true)
-      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nCompare Bryce to Brandon.", true)
+      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite", true)
+      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.", true)
       .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
       .setThumbnail(bot.user.avatarURL)
 
@@ -56,7 +56,7 @@ bot.on('message', message => {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
-      .setDescription("Our website is: " . config.website)
+      .setDescription("Our website is: " + config.website)
 
       message.channel.send({embed});
   } else if (message.content.startsWith(config.prefix + "dick")) {
@@ -70,6 +70,35 @@ bot.on('message', message => {
       message.channel.send({embed});
   } else if (message.content.startsWith("hi theforge")) {
     message.reply('Hi!');
+  } else if (message.content.startsWith(config.prefix + "welcome")) {
+    console.log(message.author.username);
+    if (message.author.username === "SkyForge") {
+      const embed = new Discord.RichEmbed()
+        .setAuthor("Welcome to TheForge", bot.user.avatarURL)
+        .setColor(0xffc342)
+        .setDescription("We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.")
+        .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+        .setThumbnail(bot.user.avatarURL)
+        .addField("Rules:", "**1)** Use the channels for their specified topic, please...\n**2)** Don't spam our text channels, no one wants all those notifications...\n**3)** If you have WWIII going on in the background, don't join a Voice Channel.\n**4)** Keep the racial slurs to a minimum.")
+        .addField("Channels:", "**#welcome** : This channel is for infomation... you're reading it now.\n**#announcements** : Find out what's new in the community.\n**#ideas** : Submit suggestions here\n**#random** : Used for, casual chat, dank memes, links, etc.")
+        .addField("Other Channels:", "**#ark** : For our (Currently in Development) Server\n**#minecraft** : For our custom *@Minecraft* (Currently in Development)")
+        .addField("Roles:", "**@Admin** - who manage the game serevrs, website, and forums\n**@Moderator** - keep those pesky trolls under their bridges\n**@B** - A useless role for sexy people\n**@Privledged** - Has extra permissions on the Discord.\n**@Associate** - Sometimes we associate with them.\n**@<Game>** - People who play a game. (*duh*)")
+        .addField("Website:", "*Our website is currently being made:*\nProgect led by: **@SkyForge** \nHelp from: **@TonyMaster21**")
+        .addField("Our Dedicated Servers", "**Ark:** *coming soon*\n**Minecraft:** *coming soon*")
+
+        message.channel.send({embed});
+    }
+  } else if (message.content.startsWith(config.prefix + "invite")) {
+  console.log(message.author.username);
+    const embed = new Discord.RichEmbed()
+      .setAuthor("Invite your friends!", bot.user.avatarURL)
+      .setColor(0xffc342)
+      .setDescription("One of the best ways for our community to grow is by word of mouth, help us out. :D")
+      .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+      .setThumbnail(bot.user.avatarURL)
+      .addField("Invite Link:", "This link never expires! So no more timeout invites.\nPlease, make sure your friends read the rules.\nhttps://discord.gg/T9RUr3b")
+
+      message.channel.send({embed});
   }
 });
 
@@ -127,4 +156,3 @@ bot.on('message', message => {
       message.channel.send({embed});
   }
 });
-
