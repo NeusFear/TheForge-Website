@@ -37,6 +37,7 @@ main{
   color: white;
   padding: 0px 10px 0px 10px;
   overflow: hidden;
+  opacity: 1;
 }
 .background {
   position: fixed;
@@ -46,9 +47,10 @@ p{
   font-size: 26;
   color: white;
   font-family: source sans pro;
+  filter: none;
 }
 .info {
-  min-height: 200px;
+  height: auto;
   text-align: center;
   padding-top: 100px;
   font-family: Big John;
@@ -81,6 +83,21 @@ p{
   z-index: 2;
   border-bottom: 5px solid;
   border-color: #ffc342;
+}
+.splash{
+  overflow: hidden;
+  font-family: Big John;
+  font-size: 100px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 230px;
+  margin-left: 300px;
+  margin-bottom: 42px;
+  margin-top: -60px;
+  width: auto;
+  height: auto;
+  color: white;
+  background:rgba(0,0,0,0.85);
 }
 
 .nav{
@@ -137,7 +154,7 @@ button:hover{
   font-family: Big John;
 
   position: relative;
-  opacity: 0.65;
+  opacity: 1;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,11 +162,27 @@ button:hover{
 
   background-image: url("../images/temp.png");
   min-height: 300px;
+
 }
 
 /* Turn off parallax scrolling for tablets and phones.*/
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
+    }
+    .splash{
+      overflow: hidden;
+      font-family: Big John;
+      font-size: 100px;
+      text-align: left;
+      padding-top: 20px;
+      padding-left: 230px;
+      margin-left: -60px;
+      margin-bottom: 42px;
+      margin-top: -60px;
+      width: auto;
+      height: auto;
+      color: white;
+      background:rgba(0,0,0,0.85);
     }
 }

@@ -77,14 +77,15 @@
 
 
     function changeimage(image, id) {
-      document.getElementById(id).style.backgroundImage = 'url(images/' + image + ')';
+      document.getElementById(id).style.backgroundImage = 'url(images/' + image + '.png)';
+      blur();
     }
     function assignimages() {
       i = 1
       page = "parallax-" + i;
       while (document.getElementById(page)) {
         image = page + ".png";
-        changeimage(image, page)
+        changeimage(page, page)
         i++;
         page = "parallax-" + i;
       }
@@ -107,19 +108,25 @@
        }
     };
 
+
+
+
   </script>
   <body>
     <div class="section" id="1" style="display: block;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>HOME</div>
 
-      <div class="parallax" id="parallax-1" style="min-height:600px;">
-         <button type="button" class="button" onclick="changeimage('temp.png', 'parallax-1')">Change Image</button>
-         <br />This is just a test button.
+      <div class="parallax" id="parallax-1" style="min-height:680px;">
+        <div class="splash"><div style="font-size:60px;"><font color="#ffc342">welcome</font>to</div><div style="font-size:122px;">THE<font color="#ffc342">FORGE</font></div></div>
       </div>
 
       <div class="parallax" id="parallax-2"></div>
       <div class="info">Some text<br /><p>Some subtext</p></div>
       <div class="parallax" id="parallax-3"></div>
+      <div class="info">
+        some text
+      </div>
+      <div class="parallax" id="parallax-4"></div>
 
     </div>
 
