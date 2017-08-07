@@ -35,12 +35,42 @@ bot.on('message', message => {
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
       .setDescription("This is a list of commands I can do:")
-      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite", true)
-      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.", true)
+      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite\n!lsitmc", true)
+      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.\nView minecraft server players", true)
       .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
       .setThumbnail(bot.user.avatarURL)
 
       message.channel.send({embed});
+  } else if (message.content.startsWith(config.prefix + "online")) {
+    str = message.content;
+    arr = str.split(" ");
+    if(!arr[1]) {
+      const embed = new Discord.RichEmbed()
+        .setAuthor("The Forge", bot.user.avatarURL)
+        .setColor(0xffc342)
+        .setDescription("Servers you can view players on")
+        .addField("Commands:", "!online mc", true)
+        .addField("Description:", "View minecraft server players", true)
+        .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+        .setThumbnail(bot.user.avatarURL)
+        message.channel.send({embed});
+    }
+
+    } else if (message.content.startsWith(config.prefix + "list")) {
+      str = message.content;
+      arr = str.split(" ");
+      if(!arr[1]) {
+        const embed = new Discord.RichEmbed()
+          .setAuthor("The Forge", bot.user.avatarURL)
+          .setColor(0xffc342)
+          .setDescription("Servers you can view players on")
+          .addField("Commands:", "!list mc", true)
+          .addField("Description:", "View minecraft server players", true)
+          .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+          .setThumbnail(bot.user.avatarURL)
+          message.channel.send({embed});
+        }
+
   } else if (message.content.startsWith(config.prefix + "info")) {
     const embed = new Discord.RichEmbed()
       .setAuthor("The Forge", bot.user.avatarURL)

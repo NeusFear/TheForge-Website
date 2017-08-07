@@ -10,7 +10,7 @@
     <meta content="SkyForge_" name="author"></meta>
 
       <!--Favicon-->
-    <!--<link href="images/favicon.ico" rel="shortcut icon"></link>-->
+    <link href="images/icons/favicon.ico" rel="shortcut icon"></link>
 
       <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"></link>
