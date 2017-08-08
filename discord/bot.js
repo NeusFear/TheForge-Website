@@ -2,6 +2,19 @@ const Discord = require('discord.js');
 const fs = require('fs');
 const bot = new Discord.Client();
 
+
+
+function includes(k) {
+  for(var i=0; i < this.length; i++){
+    if( this[i] === k || ( this[i] !== this[i] && k !== k ) ){
+      return true;
+    }
+  }
+  return false;
+}
+
+
+
 process.on("unhandledRejection", err => console.error(err.stack))
 
 try {
@@ -35,8 +48,8 @@ bot.on('message', message => {
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
       .setDescription("This is a list of commands I can do:")
-      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite\n!lsitmc", true)
-      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.\nView minecraft server players", true)
+      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite\n!lsitmc\n!iplay", true)
+      .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.\nView minecraft server players\nAdds game roles **!iplay** for more info.", true)
       .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
       .setThumbnail(bot.user.avatarURL)
 
@@ -129,7 +142,68 @@ bot.on('message', message => {
       .addField("Invite Link:", "This link never expires! So no more timeout invites.\nPlease, make sure your friends read the rules.\nhttps://discord.gg/T9RUr3b")
 
       message.channel.send({embed});
-  }
+
+
+    } else if (message.content.startsWith(config.prefix + "iplay")) {
+      str = message.content;
+      arr = str.split(" ");
+      let member = message.member;
+
+      const embed = new Discord.RichEmbed()
+        .setColor(0xffc342)
+        .setDescription("Added game Role **" + arr[1] + "** to "  + message.author)
+        .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+      if(!arr[1]){
+        const embed = new Discord.RichEmbed()
+          .setColor(0xffc342)
+          .setDescription("**You have to specify the game you play.**")
+          .setThumbnail(bot.user.avatarURL)
+          .addField("Games:", "!iplay ark\n!iplay battlefield\n!iplay csgo\n!iplay forhonor\n!iplay gta\n!iplay miscreated\n!iplay minecraft\n!iplay rust")
+          .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+          message.channel.send({embed});
+      }
+      if(arr[1] === "battlefield") {
+        let role = message.guild.roles.find("name", "Battlefield");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "csgo") {
+        var role = message.guild.roles.find("name", "CS:GO");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "forhonor") {
+        var role = message.guild.roles.find("name", "For Honor");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "gta") {
+        var role = message.guild.roles.find("name", "GTA");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "miscreated") {
+        var role = message.guild.roles.find("name", "Miscreated");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "minecraft") {
+        var role = message.guild.roles.find("name", "Minecraft");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "rust") {
+        var role = message.guild.roles.find("name", "Rust");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else if (arr[1] === "ark") {
+        var role = message.guild.roles.find("name", "Ark");
+        member.addRole(role).catch(console.error);
+        message.channel.send({embed});
+      } else {
+        if(arr[1]){
+          const embed = new Discord.RichEmbed()
+            .setColor(0xffc342)
+            .setDescription("I dont't recognize that Role")
+            .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
+            message.channel.send({embed});
+        }
+      }
+    }
 });
 
 
