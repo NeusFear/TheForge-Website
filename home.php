@@ -33,15 +33,14 @@
         <div class="splash"><div style="font-size:60px;"><font color="#ffc342">welcome</font>to</div><div style="font-size:122px;">THE<font color="#ffc342">FORGE</font></div></div>
       </div>
 
-      <div class="parallax" id="parallax-2">
-        Hi
-      </div>
+      <div class="parallax" id="parallax-2"></div>
       <div class="info">Some text<br /><p>Some subtext</p></div>
       <div class="parallax" id="parallax-3"></div>
       <div class="info">
         Connect with us:
       </div>
       <div class="parallax" id="parallax-4"></div>
+      <div class="info">Connect with us:</div>
 
     </div>
 
