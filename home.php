@@ -37,16 +37,16 @@
       <div class="info">Some text<br /><p>Some subtext</p></div>
       <div class="parallax" id="parallax-3"></div>
       <div class="info">
-        Connect with us:
+        Useless text
       </div>
       <div class="parallax" id="parallax-4"></div>
-      <div class="connect">Connect with us:</div>
+      <div class="connect">Connect with us:<img src="twitter.png"><img src="discord.png"><img src="youtube.png"></div>
 
     </div>
 
 
 
-
+12
 
     <div class="section" id="2" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>NEWS</div>
