@@ -40,7 +40,7 @@
         Connect with us:
       </div>
       <div class="parallax" id="parallax-4"></div>
-      <div class="info">Connect with us:</div>
+      <div class="connect">Connect with us:</div>
 
     </div>
 
