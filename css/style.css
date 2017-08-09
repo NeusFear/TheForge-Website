@@ -51,7 +51,7 @@ p{
 }
 .info {
   height: auto;
-  text-align: center;
+  text-align: left;
   padding-top: 100px;
   font-family: Big John;
   font-size: 50px;
@@ -62,7 +62,16 @@ p{
   color: #ffc342;
 }
 
-
+.connect {
+  height: auto;
+  text-align: left;
+  padding-top: 75px;
+  font-family: Big John;
+  font-size: 50px;
+  border-top: 5px;
+  border-color: #ffc342;
+  background-color: black;
+  color: #ffc342;
 
 .header{
   font-family: Big John;
