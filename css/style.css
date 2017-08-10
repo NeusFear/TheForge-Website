@@ -76,7 +76,7 @@ p{
   width: 100%;
   float: left;
 }
-.connect.img {
+.connect:img {
   padding: 25px;
 }
 .header{
