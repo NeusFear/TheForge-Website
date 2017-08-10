@@ -126,7 +126,7 @@ bot.on('message', message => {
         .addField("Channels:", "**#welcome** : This channel is for infomation... you're reading it now.\n**#announcements** : Find out what's new in the community.\n**#ideas** : Submit suggestions here\n**#random** : Used for, casual chat, dank memes, links, etc.")
         .addField("Other Channels:", "**#ark** : For our (Currently in Development) Server\n**#minecraft** : For our custom *@Minecraft* (Currently in Development)")
         .addField("Roles:", "**@Admin** - who manage the game serevrs, website, and forums\n**@Moderator** - keep those pesky trolls under their bridges\n**@B** - A useless role for sexy people\n**@Privledged** - Has extra permissions on the Discord.\n**@Associate** - Sometimes we associate with them.\n**@<Game>** - People who play a game. (*duh*)")
-        .addField("Website:", "*Our website is currently being made:*\nProgect led by: **@SkyForge** \nHelp from: **@TonyMaster21**")
+        .addField("Website:", "*Our website is currently being made:*\nProject led by: **@SkyForge** \nHelp from: **@TonyMaster21**")
         .addField("Our Dedicated Servers", "**Ark:** *coming soon*\n**Minecraft:** *coming soon*")
 
         message.channel.send({embed});

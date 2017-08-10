@@ -5,7 +5,7 @@ Site:
 		- Colors:
 			- Dark Grayscale
 			- Gold
-			- While Hilighing
+			- While Hilighting
 
 
 	Sub Pages (Tabs):
@@ -55,7 +55,7 @@ Site:
 					- General
 		Reviews:
 			- Date Submitted
-			- A list of games (we need to update it baseon on who we see playing them or find a way to automatically keep it up to date)
+			- A list of games (we need to update it based on who we see playing them or find a way to automatically keep it up to date)
 			- A review forum for users who are submitting the reviews to fill out:
 				- Rating
 				- Pros

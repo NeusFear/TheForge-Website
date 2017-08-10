@@ -24,7 +24,7 @@
     <script src="js/main.js"></script>
   </head>
 
-
+      <!--Page 1-->
   <body>
     <div class="section" id="1" style="display: block;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>HOME</div>
@@ -34,13 +34,13 @@
       </div>
 
       <div class="parallax" id="parallax-2"></div>
-      <div class="info">Some text<br /><p>Some subtext</p></div>
+      <div class="splash-left"><font color="#ffc342">Who are we?</font><br /><p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p></div>
       <div class="parallax" id="parallax-3"></div>
       <div class="info">
         Useless text
       </div>
       <div class="parallax" id="parallax-4"></div>
-      <div class="connect">Connect with us:<img src="twitter.png"><img src="discord.png"><img src="youtube.png"></div>
+      <div class="connect">Connect with us:<img src="images/twitter.png"><img src="images/discord.png"><img src="images/youtube.png"></div>
 
     </div>
 
