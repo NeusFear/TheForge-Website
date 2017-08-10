@@ -15,6 +15,8 @@ Site:
 				- Donations
 					- Goals
 					- Recent Donators
+				- Clans we're in (Battlefield 4 platoon etc.)
+				- COnnect with us on social media etc.
 		News:
 			Community Announcements:
 				- Community server updates
