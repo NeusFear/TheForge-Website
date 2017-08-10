@@ -36,13 +36,13 @@
       <div class="parallax" id="parallax-2">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /><p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p></div>
         </div>
-        
+
       <div class="parallax" id="parallax-3"></div>
       <div class="info">
         Useless text
       </div>
       <div class="parallax" id="parallax-4"></div>
-      <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=125px height=125px><img src="images/discord.png" alt=discord width=125px height=125px><img src="images/youtube.png" alt=youtube width=125px height=125px></div>
+      <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=75px height=75px><img src="images/discord.png" alt=discord width=75px height=75px><img src="images/youtube.png" alt=youtube width=75px height=75px></div>
 
     </div>
 
