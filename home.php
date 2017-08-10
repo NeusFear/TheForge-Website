@@ -30,7 +30,7 @@
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>HOME</div>
 
       <div class="parallax" id="parallax-1" style="min-height:680px;">
-        <div class="splash"><div style="font-size:60px;"><font color="#ffc342">welcome</font>to</div><div style="font-size:122px;">THE<font color="#ffc342">FORGE</font></div></div>
+        <div class="splash"><div style="font-size:60px;"><font color="#ffc342">welcome</font><small>to</small></div><div style="font-size:122px;"><small>THE</small><font color="#ffc342">FORGE</font></div></div>
       </div>
 
       <div class="parallax" id="parallax-2"></div>
