@@ -33,8 +33,10 @@
         <div class="splash"><div style="font-size:60px;"><font color="#ffc342">welcome</font><small>to</small></div><div style="font-size:122px;"><small>THE</small><font color="#ffc342">FORGE</font></div></div>
       </div>
 
-      <div class="parallax" id="parallax-2"></div>
-      <div class="splash-left"><font color="#ffc342">Who are we?</font><br /><p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p></div>
+      <div class="parallax" id="parallax-2">
+        <div class="splash-left"><font color="#ffc342">Who are we?</font><br /><p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p></div>
+        </div>
+        
       <div class="parallax" id="parallax-3"></div>
       <div class="info">
         Useless text
