@@ -42,7 +42,7 @@
         Useless text
       </div>
       <div class="parallax" id="parallax-4"></div>
-      <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=75px height=75px><img src="images/discord.png" alt=discord width=75px height=75px><img src="images/youtube.png" alt=youtube width=75px height=75px></div>
+      <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=50px height=50px><img src="images/discord.png" alt=discord width=50px height=50px><img src="images/youtube.png" alt=youtube width=50px height=50px></div>
 
     </div>
 
