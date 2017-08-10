@@ -48,7 +48,7 @@ bot.on('message', message => {
       .setAuthor("The Forge", bot.user.avatarURL)
       .setColor(0xffc342)
       .setDescription("This is a list of commands I can do:")
-      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite\n!lsitmc\n!iplay", true)
+      .addField("Commands:", "!help\n!ping\n!info\n!website\n!invite\n!listmc\n!iplay", true)
       .addField("Description:", "Displays the help menu.\nPong!\nDisplays the info Field.\nView a link to our website.\nGet an invite link.\nView minecraft server players\nAdds game roles **!iplay** for more info.", true)
       .setFooter("Bot made with ❤ by SkyForge | Contact them for support.")
       .setThumbnail(bot.user.avatarURL)
