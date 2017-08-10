@@ -135,11 +135,11 @@ p{
   padding-top: 100px;
   font-family: Big John;
   font-size: 50px;
-  background-color: black;
+  background-color: #8e8a83;
   border-top: 5px solid;
   border-bottom: 5px solid;
   border-color: #ffc342;
-  color: #8e8a83;
+  color: black;
 }
 .nav{
   overflow: hidden;
