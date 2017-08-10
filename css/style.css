@@ -111,6 +111,9 @@ p{
   color: white;
   background:rgba(0,0,0,0.85);
 }
+.splash-left{
+  alex do this
+}
 
 .nav{
   overflow: hidden;
@@ -197,19 +200,4 @@ button:hover{
       color: white;
       background:rgba(0,0,0,0.85);
     }
-}
-.splash-left{
-  overflow: hidden;
-  font-family: Big John;
-  font-size: 75px;
-  text-align: right;
-  padding-top: 20px;
-  padding-right: 230px;
-  margin-right: -60px;
-  margin-bottom: 42px;
-  margin-top: -60px;
-  width: auto;
-  height: auto;
-  color: white;
-  background:rgba(0,0,0,0.85);
 }
