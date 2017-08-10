@@ -129,7 +129,18 @@ p{
   color: white;
   background:rgba(0,0,0,0.85);
 }
-
+.transition{
+  height: auto;
+  text-align: left;
+  padding-top: 100px;
+  font-family: Big John;
+  font-size: 50px;
+  background-color: black;
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  border-color: #ffc342;
+  color: #8e8a83;
+}
 .nav{
   overflow: hidden;
   color: #ffc342;
