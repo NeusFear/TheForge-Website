@@ -133,14 +133,14 @@ p{
 .transition{
   height: auto;
   text-align: left;
-  padding-top: 100px;
+  padding: 10px;
   font-family: Big John;
-  font-size: 50px;
-  background-color: #f2f2f2;
+  font-size: 20px;
+  background-color: #8e8a83;
   border-top: 5px solid;
   border-bottom: 5px solid;
-  border-color: #ffc342;
-  color: #999999;
+  border-color: rgba(255, 195, 66);
+  color: black;
 }
 .nav{
   overflow: hidden;
