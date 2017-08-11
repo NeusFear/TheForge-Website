@@ -35,7 +35,7 @@
 
       <div class="transition">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /></div>
-        <p>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</p>
+        <p>We are a new modern, gaming community that aims to make a fun and helpful experience for today's entertainment centered community.</p>
       </div>
 
       <div class="parallax" id="parallax-2"></div>
@@ -45,7 +45,7 @@
       </div>
 
       <div class="parallax" id="parallax-3"></div>
-      
+
       <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=50px height=50px><img src="images/discord.png" alt=discord width=50px height=50px><img src="images/youtube.png" alt=youtube width=50px height=50px></div>
 
     </div>
