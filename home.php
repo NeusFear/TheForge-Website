@@ -38,7 +38,7 @@
         </div>
         
       <div class="transition">
-        <p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p>
+        We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.
       </div>
 
       <div class="parallax" id="parallax-3"></div>
