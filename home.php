@@ -36,7 +36,7 @@
       <div class="parallax" id="parallax-2">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /></div>
         </div>
-        
+
       <div class="transition">
         We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.
       </div>
@@ -52,7 +52,7 @@
 
 
 
-12
+
 
     <div class="section" id="2" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>NEWS</div>
