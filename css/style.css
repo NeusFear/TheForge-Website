@@ -139,7 +139,7 @@ p{
   background-color: #8e8a83;
   border-top: 5px solid;
   border-bottom: 5px solid;
-  border-color: rgba(255, 195, 66);
+  border-color: rgba(255, 195, 66, .85);
   color: black;
 }
 .nav{
