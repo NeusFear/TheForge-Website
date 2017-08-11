@@ -36,6 +36,7 @@
       <div class="parallax" id="parallax-2">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /></div>
         </div>
+        
       <div class="transition">
         <p><Small>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</small></p>
       </div>
