@@ -35,18 +35,28 @@
 
       <div class="transition">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /></div>
-        <p>We are a new modern, gaming community that aims to make a fun and helpful experience for today's entertainment centered world.</p>
+        <p>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</p>
+        <center>
+          <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/success.png" /><br />Modern<p>Description of many words will go here.</p></div>
+          <div class="info"><img src="images/Icons/circular/list.png" /><br />Forums<p>Description of many words will go here.</p></div>
+          <div class="info"><img src="images/Icons/circular/internet.png" /><br />Servers<p>Description of many words will go here.</p></div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/volume.png" /><br />Discord<p>Description of many words will go here.</p></div>
+          <div class="info"><img src="images/Icons/circular/email.png" /><br />Staff<p>Description of many words will go here.</p></div>
+          <div class="info"><img src="images/Icons/circular/earth-globe.png" /><br />Community<p>Description of many words will go here.</p></div>
+        </center>
       </div>
 
       <div class="parallax" id="parallax-2"></div>
-
-      <div class="info">
-        Useless text
-      </div>
-
       <div class="parallax" id="parallax-3"></div>
 
-      <div class="connect">Connect with us:<img src="images/twitter.png" alt=twitter width=50px height=50px><img src="images/discord.png" alt=discord width=50px height=50px><img src="images/youtube.png" alt=youtube width=50px height=50px></div>
+      <div class="connect">
+        <br>
+        <div class="splash-left"><font color="#ffc342">Connect with us:</font><br /></div>
+        <div class="info" style="margin-left: 20%;"><img src="images/Icons/social media/051-discord.png" /><br />Discord<p>Description of many words will go here. blah blah blah</p></div>
+        <div class="info"><img src="images/Icons/social media/051-twitter.png" /><br />Twitter<p>Description of many words will go here.</p></div>
+        <div class="info"><img src="images/Icons/social media/051-youtube.png" /><br />YouTube<p>Description of many words will go here.</p></div>
+      </div>
 
     </div>
 

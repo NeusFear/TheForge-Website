@@ -48,19 +48,28 @@ p{
 }
 .info {
   height: auto;
-  text-align: left;
-  padding-top: 100px;
+  text-align: center;
   font-family: Big John;
-  font-size: 50px;
-  background-color: black;
-  border-top: 5px solid;
-  border-bottom: 5px solid;
-  border-color: white;
+  font-size: 24px;
   color: #ffc342;
+  float: left;
+  width: 20%;
+  margin: auto;
+}
+.info img{
+  height: 200px;
+  width: 200px;
+}
+.info p{
+  height: auto;
+  text-align: center;
+  font-family: Big John;
+  font-size: 14px;
+  color: #999999;
 }
 
 .connect {
-  min-height: 300px;
+  min-height: 600px;
   text-align: left;
   padding-top: 40px;
   font-family: Big John;
@@ -73,8 +82,15 @@ p{
   width: 100%;
   float: left;
 }
-.connect img {
-  padding-right: 15px;
+.connect p{
+  margin-left: 25%;
+  margin-right: 25%;
+  height: auto;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+}
+.connect img{
+  margin-bottom: 24px;
 }
 .header{
   font-family: Big John;
@@ -128,8 +144,8 @@ p{
   background:rgba(0,0,0,0.85);
 }
 .transition{
-  height: auto;
-  text-align: left;
+  height: 1200px;
+  text-align: center;
   padding-top: 80px;
   padding-left: 0px;
   font-family: Big John;
@@ -143,7 +159,9 @@ p{
   height: auto;
   margin-bottom: 0px;
   padding-bottom: 100px;
-  padding-top: 100px;
+}
+.transition img{
+  margin-bottom: 24px;
 }
 .nav{
   overflow: hidden;

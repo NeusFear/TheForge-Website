@@ -12,6 +12,12 @@ Site:
 		Home:
 			Info Needed:
 				- Community Description
+					+ Modern up to date
+					+ Forums
+					+ Discord
+					+ Friendly Staff
+					+ Helpful COmmunity
+					+ Variety in servers
 				- Donations
 					- Goals
 					- Recent Donators
