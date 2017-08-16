@@ -23,5 +23,8 @@
     <script src="bot.js"></script>
     <script src="js/main.js"></script>
   </head>
-
+<img src="images/arktutorial/step-1-steam-view.png" />
+<img src="images/arktutorial/step-2-steam-servers.png" />
+<img src="images/arktutorial/step-3-steam-add.png" />
+<img src="images/arktutorial/step-4-steam-done.png" />
 <html>
