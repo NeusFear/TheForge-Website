@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8"></meta>
       <!--Tab Title-->
-    <title>Adding Ark</title>
+    <title>Adding TheForge Ark</title>
 
       <!--Meta-->
     <meta content="The Forge - Minecraft Network" name="description"></meta>
