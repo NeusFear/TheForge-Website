@@ -21,6 +21,7 @@ function left() {
       i1--;
       document.getElementById(i).style.display = "none";
       document.getElementById(i1).style.display = "block";
+      scroll(0,0);
       pagenav();
     }
     i++;
@@ -35,6 +36,7 @@ function right() {
       if (!document.getElementById(i1)) { break; }
       document.getElementById(i).style.display = "none";
       document.getElementById(i1).style.display = "block";
+      scroll(0,0);
 
       pagenav();
     }
