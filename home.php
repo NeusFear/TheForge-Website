@@ -77,12 +77,14 @@
 
               <div class="communitycontent">
                 <div class="minecrafticon"></div>
-                stuff
+                MINECRAFT
+                <p>A lot of info</p>
               </div>
 
               <div class="communitycontent">
                 <div class="arkicon"></div>
-                stuff
+                ARK
+                <p>A lot of info</p>
               </div>
 
             </center>
