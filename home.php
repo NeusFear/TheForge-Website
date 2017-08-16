@@ -35,11 +35,11 @@
 
       <div class="transition">
         <div class="splash-left"><font color="#ffc342">Who are we?</font><br /></div>
-        <p>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving community.</p>
+        <p>We are a new modern gaming community that aims to make a fun and helpful experience for today's video game loving world.</p>
         <center>
-          <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/success.png" /><br />Modern<p>Description of many words will go here.</p></div>
-          <div class="info"><img src="images/Icons/circular/list.png" /><br />Forums<p>Description of many words will go here.</p></div>
-          <div class="info"><img src="images/Icons/circular/internet.png" /><br />Servers<p>Description of many words will go here.</p></div>
+          <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/success.png" /><br />Modern<p>We aim to keep at the forefront of developments in gaming whether that be hardware or software, to give you the best, and most up-to-date experi0ence possible.</p></div>
+          <div class="info"><img src="images/Icons/circular/list.png" /><br />Forums<p>To keep progressive gamers connected in a like-minded community.</p></div>
+          <div class="info"><img src="images/Icons/circular/internet.png" /><br />Servers<p>Our community hosts dedicated servers avalible to anyone.</p></div>
           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
           <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/volume.png" /><br />Discord<p>Description of many words will go here.</p></div>
           <div class="info"><img src="images/Icons/circular/email.png" /><br />Staff<p>Description of many words will go here.</p></div>
