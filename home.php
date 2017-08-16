@@ -53,7 +53,7 @@
       <div class="connect">
         <br>
         <div class="splash-left"><font color="#ffc342">Connect with us:</font><br /></div>
-        <div class="info" style="margin-left: 20%;"><img src="images/Icons/social media/051-discord.png" /><br />Discord<p>Our community Discord page where you can communicate with friends and recieve important news about TheForge/p></div>
+        <div class="info" style="margin-left: 20%;"><img src="images/Icons/social media/051-discord.png" /><br />Discord<p>Our community Discord page where you can communicate with friends and recieve important news about TheForge</p></div>
         <div class="info"><img src="images/Icons/social media/051-twitter.png" /><br />Twitter<p>Not currently active :(</p></div>
         <div class="info"><img src="images/Icons/social media/051-youtube.png" /><br />YouTube<p>Not currently active :(</p></div>
       </div>
