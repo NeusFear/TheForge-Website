@@ -27,4 +27,4 @@
 <img src="images/arktutorial/step-2-steam-servers.png" />
 <img src="images/arktutorial/step-3-steam-add.png" />
 <img src="images/arktutorial/step-4-steam-done.png" />
-<html>
+</html>
