@@ -123,7 +123,7 @@
     <div class="nav" id="nav">
       <input class="navbutton" id="left" type="button" value="&#9664;" onclick="left();" style="float:left;background:transparent;" />
       <div class="pages" id="things" style="float:left;">
-        Stuff
+        Stuff n' things
       </div>
       <input class="navbutton" id="right" type="button" value="&#9654;" onclick="right();" style="float:left;background:transparent;" />
     </div>
