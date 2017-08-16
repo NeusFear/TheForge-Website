@@ -42,8 +42,8 @@
           <div class="info"><img src="images/Icons/circular/internet.png" /><br />Servers<p>Our community hosts dedicated servers avalible to anyone.</p></div>
           <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
           <div class="info" style="margin-left: 20%;"><img src="images/Icons/circular/volume.png" /><br />Discord<p>The fastest way to communicate with other members, and recieve updates on server information.</p></div>
-          <div class="info"><img src="images/Icons/circular/email.png" /><br />Staff<p>Description of many words will go here.</p></div>
-          <div class="info"><img src="images/Icons/circular/earth-globe.png" /><br />Community<p>Description of many words will go here.</p></div>
+          <div class="info"><img src="images/Icons/circular/email.png" /><br />Staff<p>Our helpful staff endeavors to resolve all issues and answer all questions as quickly and helpfully as possible.</p></div>
+          <div class="info"><img src="images/Icons/circular/earth-globe.png" /><br />Community<p>The main goal of our community is to enjoy the games we play as well as provide helpful feedback on those games.</p></div>
         </center>
       </div>
 
