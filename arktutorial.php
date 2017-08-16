@@ -30,7 +30,7 @@
       <img src="images/arktutorial/step-0-steam-home.png" /><br />
       view these<br />
       <img src="images/arktutorial/step-1-steam-view.png" /><br />
-      got to favorites then add a server<br />
+      go to favorites then add a server<br />
       <img src="images/arktutorial/step-2-steam-servers.png" /><br />
       enter that and click this<br />
       <img src="images/arktutorial/step-3-steam-add.png" /><br />
