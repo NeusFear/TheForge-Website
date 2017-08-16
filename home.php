@@ -65,55 +65,44 @@
 
 
     <div class="section" id="2" style="display:none;">
-      <div id="header" class="header"><font color="#ffc342">THEFORGE</font>NEWS</div>
-        <div id="content" class="content">
-            News
-        </div>
-    </div>
-
-
-
-
-
-    <div class="section" id="3" style="display:none;">
-      <div id="header" class="header"><font color="#ffc342">THEFORGE</font>FORUMS</div>
-        <div id="content" class="content">
-            the Forge Forums
-        </div>
-    </div>
-
-
-
-
-
-    <div class="section" id="4" style="display:none;">
-      <div id="header" class="header"><font color="#ffc342">THEFORGE</font>REVIEWS</div>
-        <div id="content" class="content">
-            Review Pages
-        </div>
-    </div>
-
-
-
-
-
-    <div class="section" id="5" style="display:none;">
       <div id="header" class="header"><font color="#ffc342">THEFORGE</font>COMMUNITY</div>
         <div id="content" class="content">
-            Server info and things
+
+          <div class="parallax" id="parallax-4" style="min-height:50px;"></div>
+
+          <div class="transition">
+            <div class="splash-left"><font color="#ffc342">COMMUNITY</font><br /></div>
+            <p>Our community hosts dedicated servers avalible to anyone</p>
+            <center>
+
+              <div class="communitycontent">
+                <div class="minecrafticon"></div>
+                MINECRAFT
+                <p>A lot of info</p>
+              </div>
+
+              <div class="communitycontent">
+                <div class="arkicon"></div>
+                ARK
+                <p>A lot of info</p>
+              </div>
+
+            </center>
+          </div>
+
+          <div class="parallax" id="parallax-5"></div>
+
+          <div class="connect">
+            <br>
+            <div class="splash-left"><font color="#ffc342">Connect with us:</font><br /></div>
+            <div class="info" style="margin-left: 20%;"><img src="images/Icons/social media/051-discord.png" /><br />Discord<p>Description of many words will go here. blah blah blah</p></div>
+            <div class="info"><img src="images/Icons/social media/051-twitter.png" /><br />Twitter<p>Description of many words will go here.</p></div>
+            <div class="info"><img src="images/Icons/social media/051-youtube.png" /><br />YouTube<p>Description of many words will go here.</p></div>
+          </div>
+
         </div>
     </div>
 
-
-
-
-
-    <div class="section" id="6" style="display:none;">
-      <div id="header" class="header"><font color="#ffc342">THEFORGE</font>PROFILE</div>
-        <div id="content" class="content">
-            Profile Page
-        </div>
-    </div>
 
 
 
@@ -123,7 +112,7 @@
     <div class="nav" id="nav">
       <input class="navbutton" id="left" type="button" value="&#9664;" onclick="left();" style="float:left;background:transparent;" />
       <div class="pages" id="things" style="float:left;">
-        Stuff
+        Stuff n' things
       </div>
       <input class="navbutton" id="right" type="button" value="&#9654;" onclick="right();" style="float:left;background:transparent;" />
     </div>
