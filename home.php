@@ -75,17 +75,9 @@
             <p>Our community hosts dedicated servers avalible to anyone</p>
             <center>
 
-              <div class="communitycontent">
-                <div class="minecrafticon"></div>
-                MINECRAFT
-                <p>A lot of info</p>
-              </div>
-
-              <div class="communitycontent">
-                <div class="arkicon"></div>
-                ARK
-                <p>A lot of info</p>
-              </div>
+              <div class="info" style="margin-left: 20%;"><div class="icon"><img src="images/minecrafticon.png" /></div><br />Minecraft<p>theforgemc.com (Currently under development)</p></div>
+              <div class="info"><div class="icon"><img src="images/arkicon.png" /></div><br />Ark<p>theforgeark.com</p></div>
+              <div class="info"><div class="icon"><img src="images/Icons/construction/engineer.png" /></div><br />Coming Soon...<p>more servers to come..</p></div>
 
             </center>
           </div>

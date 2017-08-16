@@ -30,18 +30,6 @@ main{
 
 
 
-.icon {
-  height: 200px;
-  width: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 100px;
-}
-
-
-
-
 .content {
   width: auto;
   font-family: source sans pro;
@@ -71,6 +59,10 @@ p{
 .info img{
   height: 200px;
   width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  border-radius: 100px;
 }
 .info p{
   height: auto;
