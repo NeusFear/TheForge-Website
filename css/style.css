@@ -30,6 +30,34 @@ main{
 
 
 
+.minecrafticon {
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/minecrafticon.png");
+  border-radius: 100px;
+}
+.arkicon {
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/arkicon.png");
+  border-radius: 100px;
+}
+.communitycontent {
+  width: 20%;
+  background:rgba(0,0,0,0.5);
+  color: white;
+  box-shadow: 5px 5px 30px grey;
+}
+
+
+
+
 .content {
   width: auto;
   font-family: source sans pro;
